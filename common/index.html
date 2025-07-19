@@ -619,6 +619,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#hh_mypypkg.common.random_number" class="md-nav__link">
+    <span class="md-ellipsis">
+      random_number()
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -674,6 +683,15 @@
   <a href="#hh_mypypkg.common.hello_world" class="md-nav__link">
     <span class="md-ellipsis">
       hello_world()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hh_mypypkg.common.random_number" class="md-nav__link">
+    <span class="md-ellipsis">
+      random_number()
     </span>
   </a>
   
@@ -742,6 +760,53 @@
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Prints &quot;Hello World!&quot; to the console.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="hh_mypypkg.common.random_number" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">random_number</span><span class="p">()</span></code>
+
+
+<a href="#hh_mypypkg.common.random_number" class="headerlink" title="Permanent link">&para;</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns a random number between 0 and 1.</p>
+
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>float</code></td>
+      <td><p>A random number between 0 and 1.</p></td>
+    </tr>
+  </tbody>
+</table>
+        <details class="quote">
+          <summary>Source code in <code>hh_mypypkg/common.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">random_number</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns a random number between 0 and 1.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        float: A random number between 0 and 1.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
+    <span class="k">return</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span>
 </code></pre></div>
         </details>
     </div>
