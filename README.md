@@ -14,8 +14,8 @@
 
 ## Features
 
--   Anlyzing raster and vector data
--   Print out useful mesage
+-   Analyzing raster and vector data
+-   Print out useful message
 
 ## Demo
 
